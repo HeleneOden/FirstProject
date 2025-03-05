@@ -1,16 +1,41 @@
-body
-{ 
-    
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0; 
+ 
+body 
+    {
+        background-image: url(./lift.jpg); /* Lägger till en bakgrundsbild */
+        background-size: cover; /* Gör så att bilden täcker hela bakgrunden */
+        background-position: center; /* Centrerar bilden */
+        background-repeat: no-repeat; /* Förhindrar upprepning av bilden */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0; 
+    }
 
-}
  .container
 {
     width: 100%;
     margin: 0 auto;
     padding: 0;
     color: hotpink;
+    margin: 0 auto;
     text-align: center;
-};  
+}
+
+
+.picture-box
+{
+    background-color:lightblue;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.picture-box img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center
+}
